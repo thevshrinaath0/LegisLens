@@ -1,0 +1,27 @@
+RENTAL AGREEMENT
+
+This Rental Agreement ("Agreement") is made on this 1st day of February 2024, by and between:
+
+LANDLORD: MegaCorp Holdings Pvt Ltd.
+TENANT: Small Business Solutions LLP.
+
+1. TERM
+The lease shall be for a fixed period of 5 years. Both parties have the right to terminate this agreement with 30 days written notice.
+
+2. RENT
+The monthly rent shall be INR 50,000. Rent increases shall be mutually agreed upon annually, capped at 5%.
+
+3. INDEMNITY
+The Tenant agrees to indemnify the Landlord against direct damages caused by the Tenant's negligence. The Landlord agrees to indemnify the Tenant against structural defects. Liability is capped at 3 months' rent.
+
+4. MAINTENANCE
+Minor repairs (< INR 5000) shall be the responsibility of the Tenant. Major structural repairs shall be the responsibility of the Landlord.
+
+5. PENALTY
+If the rent is delayed by more than 7 days, a simple interest of 1% per month will be charged on the outstanding amount.
+
+6. JURISDICTION
+Any disputes arising from this agreement shall be subject to the jurisdiction of the courts in [City of Property], India.
+
+7. USE OF PREMISES
+The Tenant may make non-structural alterations to the property with prior written consent, which shall not be unreasonably withheld.

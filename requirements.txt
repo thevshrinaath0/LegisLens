@@ -1,0 +1,8 @@
+streamlit
+anthropic
+spacy
+pandas
+plotly
+python-docx
+PyPDF2
+python-dotenv
