@@ -60,49 +60,6 @@ with st.sidebar:
             @st.cache_resource
             def get_engine():
                 return NLPEngine()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
                 
             engine = get_engine()
             
