@@ -21,13 +21,13 @@ class NLPEngine:
         self.model = "claude-3-haiku-20240307" 
         
         # Load small spacy model for fast entity extraction without LLM tokens
+        # Note: Model must be installed via requirements.txt for cloud deployment
         try:
             self.nlp = spacy.load("en_core_web_sm")
         except OSError:
-            # Fallback if model isn't downloaded
-            from spacy.cli import download
-            download("en_core_web_sm")
-            self.nlp = spacy.load("en_core_web_sm")
+            # On cloud, if requirements failed, we can't download at runtime due to permissions.
+            # Use a blank model as fallback to prevent crash, but entity extraction will be limited.
+            self.nlp = spacy.blank("en")
 
     def extract_text(self, uploaded_file):
         """Extracts text from PDF, DOCX, or TXT files."""
