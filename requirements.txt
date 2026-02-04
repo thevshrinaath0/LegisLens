@@ -1,6 +1,6 @@
 streamlit
 anthropic
-spacy==3.7.4
+spacy
 pandas
 plotly
 python-docx
