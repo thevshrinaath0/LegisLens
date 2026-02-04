@@ -55,7 +55,14 @@ with st.sidebar:
     
     if uploaded_file and st.button("Analyze Contract"):
         with st.spinner("Reading & Analyzing with Claude 3 Haiku..."):
-            engine = NLPEngine()
+            
+            # Cache the engine resource to load spacy model only once
+            @st.cache_resource
+            def get_engine():
+                return NLPEngine()
+                
+            engine = get_engine()
+            
             # 1. Extract
             text = engine.extract_text(uploaded_file)
             st.session_state["text"] = text
