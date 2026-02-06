@@ -1,7 +1,7 @@
 # LegisLens - Hackathon Project
 
 ## 🚀 Project Overview
-**Legal AI Assistant** is a GenAI-powered tool designed to help Small and Medium Enterprises (SMEs) in India navigate complex legal contracts. It democratizes access to legal expertise by providing instant, easy-to-understand risk analysis and high-quality contract drafting.
+**LegisLens** is a GenAI-powered tool designed to help Small and Medium Enterprises (SMEs) in India navigate complex legal contracts. It democratizes access to legal expertise by providing instant, easy-to-understand risk analysis and high-quality contract drafting.
 
 ### 💡 Problem Statement
 SMEs often struggle with:
